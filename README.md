@@ -120,11 +120,6 @@ La configuracion default usa `http://35.193.217.67` como RPC de hackathon, segun
 - Pitch deck editable: se genera en `pitch/output/output.pptx`
 - Demo web: `demo/index.html`
 
-## Estado de enlaces externos
-
-- GitHub: pendiente de publicar desde esta carpeta.
-- Pitch deck: pendiente de subir a Drive/Gamma/Canva si el curso exige URL.
-- Video demo: usar `docs/demo-script.md` para grabar y subir un video de 2 a 5 minutos.
 
 ## Licencia
 
