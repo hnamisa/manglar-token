@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Manglar Azul Demo</title>
+    <link rel="stylesheet" href="./styles.css">
+  </head>
+  <body>
+    <main class="shell">
+      <section class="hero">
+        <img src="../assets/images/manglar-aerial.png" alt="Vista aerea de manglares">
+        <div class="hero-copy">
+          <p class="eyebrow">Hackathon Carbon Tokenization</p>
+          <h1>Manglar Azul MRV</h1>
+          <p>Tokenizacion EVM de creditos de carbono azul con evidencia MRV auditable y retiro publico.</p>
+        </div>
+      </section>
+
+      <section class="grid">
+        <article class="panel">
+          <h2>MRV verificado</h2>
+          <img src="../assets/images/mrv-field.png" alt="MRV con drone y sensor">
+          <dl>
+            <div><dt>Delta bruto</dt><dd id="gross">3,660 tCO2e</dd></div>
+            <div><dt>Emitible</dt><dd id="issueable">2,760 MACC</dd></div>
+            <div><dt>Hash MRV</dt><dd id="hash">0x...</dd></div>
+          </dl>
+        </article>
+
+        <article class="panel">
+          <h2>Lote tokenizado</h2>
+          <div class="token">
+            <span>MACC</span>
+            <strong id="balance">0</strong>
+            <small>toneladas CO2e disponibles</small>
+          </div>
+          <button id="register">Registrar proyecto</button>
+          <button id="issue" disabled>Emitir lote MRV</button>
+          <button id="retire" disabled>Retirar 25 tCO2e</button>
+        </article>
+
+        <article class="panel">
+          <h2>Retiro transparente</h2>
+          <img src="../assets/images/retirement-demo.png" alt="Demo de retiro con QR">
+          <div class="receipt">
+            <span>Certificado demo</span>
+            <strong id="retired">0 tCO2e retiradas</strong>
+            <small id="certificate">Sin retiro registrado</small>
+          </div>
+        </article>
+      </section>
+
+      <section class="log">
+        <h2>Bitacora auditable</h2>
+        <ol id="events"></ol>
+      </section>
+    </main>
+
+    <script src="./app.js"></script>
+  </body>
+</html>

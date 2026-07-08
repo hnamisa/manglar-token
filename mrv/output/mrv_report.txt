@@ -1,0 +1,6 @@
+Manglar Azul MRV Report
+Vintage: 2025
+Gross delta: 3660.0 tCO2e
+Net delta: 3580.0 tCO2e
+Issueable credits: 2731 tCO2e
+MRV hash: 0x3cbcd3d5dc5901126ac241f1ed3001f0264beebca291d27549e5a8a42cc8e1ba

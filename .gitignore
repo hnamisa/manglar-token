@@ -1,0 +1,13 @@
+node_modules/
+artifacts/
+cache/
+coverage/
+.env
+.hardhat-global/
+.DS_Store
+*.log
+pitch/node_modules/
+pitch/scratch/
+pitch/output/*.layout.json
+pitch/output/output.pptx.inspect.ndjson
+pitch/output/pptx-render/

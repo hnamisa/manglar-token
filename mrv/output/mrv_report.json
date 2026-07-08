@@ -1,0 +1,50 @@
+{
+  "project": "Manglar Azul Tumbes",
+  "methodology": "Satellite + drone + field-plot MRV with leakage, uncertainty and permanence buffer",
+  "vintage": "2025",
+  "generated_at": "2025-06-15",
+  "unit": "tCO2e",
+  "observations": [
+    {
+      "plot_id": "TMB-01",
+      "zone": "Canal Zarumilla",
+      "area_ha": 40.0,
+      "gross_delta_tco2e": 770.0,
+      "net_delta_tco2e": 752.0,
+      "issueable_tco2e": 579,
+      "evidence_uri": "ipfs://manglar-azul/evidence/TMB-01"
+    },
+    {
+      "plot_id": "TMB-02",
+      "zone": "Isla Matapalo",
+      "area_ha": 55.0,
+      "gross_delta_tco2e": 1120.0,
+      "net_delta_tco2e": 1094.0,
+      "issueable_tco2e": 831,
+      "evidence_uri": "ipfs://manglar-azul/evidence/TMB-02"
+    },
+    {
+      "plot_id": "TMB-03",
+      "zone": "Puerto Pizarro",
+      "area_ha": 35.0,
+      "gross_delta_tco2e": 730.0,
+      "net_delta_tco2e": 716.0,
+      "issueable_tco2e": 537,
+      "evidence_uri": "ipfs://manglar-azul/evidence/TMB-03"
+    },
+    {
+      "plot_id": "TMB-04",
+      "zone": "Estero Bendito",
+      "area_ha": 48.0,
+      "gross_delta_tco2e": 1040.0,
+      "net_delta_tco2e": 1018.0,
+      "issueable_tco2e": 783,
+      "evidence_uri": "ipfs://manglar-azul/evidence/TMB-04"
+    }
+  ],
+  "gross_delta_tco2e": 3660.0,
+  "net_delta_tco2e": 3580.0,
+  "issueable_tco2e": 2731,
+  "notes": "Illustrative hackathon dataset. Replace with certified verifier data before production issuance.",
+  "mrv_hash": "0x3cbcd3d5dc5901126ac241f1ed3001f0264beebca291d27549e5a8a42cc8e1ba"
+}

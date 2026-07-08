@@ -1,0 +1,19 @@
+{
+  "name": "manglar-token",
+  "version": "1.0.0",
+  "description": "Hackathon Carbon Tokenization project for blue-carbon mangrove MRV and EVM credit retirement.",
+  "license": "MIT",
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "deploy:local": "hardhat run scripts/deploy.js --network localhost",
+    "deploy:lacnet": "hardhat run scripts/deploy.js --network lacnet",
+    "demo:mrv": "python mrv/mrv_pipeline.py",
+    "demo:flow": "node scripts/demo-flow.js"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^6.0.0",
+    "dotenv": "^17.0.0",
+    "hardhat": "^2.24.0"
+  }
+}

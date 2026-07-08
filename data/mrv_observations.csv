@@ -1,0 +1,5 @@
+plot_id,observation_date,zone,area_ha,baseline_stock_tco2e,measured_stock_tco2e,leakage_tco2e,uncertainty_pct,permanence_buffer_pct,evidence_uri
+TMB-01,2025-06-01,Canal Zarumilla,40,19800,20570,18,0.08,0.15,ipfs://manglar-azul/evidence/TMB-01
+TMB-02,2025-06-01,Isla Matapalo,55,27100,28220,26,0.09,0.15,ipfs://manglar-azul/evidence/TMB-02
+TMB-03,2025-06-01,Puerto Pizarro,35,16950,17680,14,0.10,0.15,ipfs://manglar-azul/evidence/TMB-03
+TMB-04,2025-06-01,Estero Bendito,48,23340,24380,22,0.08,0.15,ipfs://manglar-azul/evidence/TMB-04

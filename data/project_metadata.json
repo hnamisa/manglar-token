@@ -1,0 +1,10 @@
+{
+  "name": "Manglar Azul Tumbes",
+  "country": "Peru",
+  "asset_type": "Blue carbon mangrove conservation and restoration",
+  "token_unit": "1 MACC = 1 verified tonne CO2e",
+  "methodology": "Remote sensing, drone imagery, field plots, leakage discount, uncertainty discount and permanence buffer",
+  "sdg_alignment": ["SDG 13 Climate Action", "SDG 14 Life Below Water", "SDG 15 Life on Land", "SDG 8 Decent Work"],
+  "stewards": ["Local coastal community", "MRV operator", "Independent verifier"],
+  "disclaimer": "Hackathon prototype metadata. Production issuance requires accredited methodology and verifier approval."
+}
