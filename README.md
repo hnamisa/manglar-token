@@ -7,7 +7,7 @@ Manglar Azul MRV tokeniza creditos de carbono azul generados por conservacion y 
 ## Equipo
 
 - Hiro Namisato Maetahara - Blockchain, smart contracts y despliegue EVM.
-- John Nunez Perez - MRV, datos, producto, pitch y demo funcional.
+- John Núñez Perez - MRV, datos, producto, pitch y demo funcional.
 
 ## Problema
 

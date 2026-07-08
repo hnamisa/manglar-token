@@ -7,7 +7,7 @@ Manglar Azul MRV
 ## Miembros del equipo y roles
 
 - Hiro Namisato Maetahara: Blockchain lead, smart contracts, despliegue EVM y pruebas.
-- John Nunez Perez: MRV/data lead, investigacion de problema, demo funcional y pitch.
+- John Núñez Perez: MRV/data lead, investigacion de problema, demo funcional y pitch.
 
 ## Descripcion del problema identificado
 
