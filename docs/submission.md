@@ -80,9 +80,9 @@ Manglar Azul MRV creates an auditable route from carbon measurement to retiremen
 
 **Local deck:** `pitch/output/output.pptx`
 
-**Canva editable deck:** https://www.canva.com/d/Cv3sGBJTf3h7UG0
+**Canva editable deck:** https://www.canva.com/d/gsJ0PxkcwH9zA30
 
-**Canva view link:** https://www.canva.com/d/PmjDi4g49da-rNs
+**Canva view link:** https://www.canva.com/d/u_Mhmdc4g2DdGZC
 
 **PDF version for upload:** `entregables_pdf/03_pitch_deck_manglar_azul_mrv.pdf`
 
