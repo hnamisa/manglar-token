@@ -292,7 +292,9 @@ def render_text_pdf(source: Path, destination: Path, title: str):
 
 
 def render_pitch_pdf(destination: Path):
-    slide_paths = [ROOT / "pitch" / "output" / f"slide-{index:02}.png" for index in range(1, 9)]
+    slide_paths = sorted((ROOT / "pitch" / "output").glob("slide-*.png"))
+    if not slide_paths:
+        raise FileNotFoundError("No pitch slide PNGs found. Run pitch/src/build-deck.mjs first.")
     page_size = (1280, 720)
     pdf = canvas.Canvas(str(destination), pagesize=page_size)
     pdf.setTitle("Pitch Deck - Manglar Azul MRV")

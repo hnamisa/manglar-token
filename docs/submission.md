@@ -80,20 +80,26 @@ Manglar Azul MRV creates an auditable route from carbon measurement to retiremen
 
 **Local deck:** `pitch/output/output.pptx`
 
+**Canva editable deck:** https://www.canva.com/d/Cv3sGBJTf3h7UG0
+
+**Canva view link:** https://www.canva.com/d/PmjDi4g49da-rNs
+
 **PDF version for upload:** `entregables_pdf/03_pitch_deck_manglar_azul_mrv.pdf`
 
 **Repository copy:** https://github.com/hnamisa/manglar-token/tree/main/entregables_pdf
 
 Pitch deck structure:
 
-1. Cover: Manglar Azul MRV.
-2. Problem: trust gap in nature-based carbon markets.
-3. Solution: MRV to hash to tokenized batch to retirement.
-4. MRV conversion: gross, net and issueable credits.
-5. Evidence by zone: issueable credits per mangrove area.
-6. Smart contract: functions, roles and audit objects.
-7. Functional demo: register, issue and retire.
-8. Roadmap: verifier, IPFS, LACNet, wallet UI and pilot.
+1. Cover: Manglar Azul MRV and the verified blue-carbon promise.
+2. Problem: a carbon credit without traceability does not create trust.
+3. Opportunity: Tumbes as the first case for a repeatable blue-carbon pattern.
+4. Solution: MRV measurement, evidence hash, MACC batch and public retirement.
+5. MRV evidence: 3,660 gross tCO2e, 3,580 net tCO2e and 2,731 issueable MACC.
+6. Zone traceability: the final batch keeps links to observations and evidence URIs.
+7. Architecture: heavy evidence off-chain, integrity proof on-chain.
+8. Contract and demo: project registration, issuance, transfer and retirement.
+9. Impact and scale: buyer trust, community visibility and regional expansion.
+10. Roadmap and close: LACNet testnet, IPFS/Filecoin, verifier, wallet UI and pilot.
 
 ## 7. GITHUB REPOSITORY LINK
 
