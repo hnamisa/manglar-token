@@ -32,14 +32,14 @@ OUT = ROOT / "entregables_pdf"
 
 
 DOCS = [
-    ("docs/submission.md", "01_ficha_submission.pdf", "Ficha Submission"),
-    ("pitch/output/output.pptx", "02_pitch_deck.pdf", "Pitch Deck"),
-    ("README.md", "03_readme_repositorio.pdf", "README del Repositorio"),
-    ("docs/architecture.md", "04_arquitectura.pdf", "Arquitectura"),
-    ("docs/deployment-lacnet.md", "05_guia_despliegue_lacnet.pdf", "Guia de Despliegue LACNet"),
-    ("docs/demo-script.md", "06_guion_video_demo.pdf", "Guion de Video Demo"),
-    ("docs/rubric-checklist.md", "07_checklist_rubrica.pdf", "Checklist de Rubrica"),
-    ("mrv/output/mrv_report.txt", "08_reporte_mrv_resumen.pdf", "Reporte MRV Resumen"),
+    ("docs/submission.md", "01_final_submission_form_manglar_azul_mrv.pdf", "Final Submission Form - Manglar Azul MRV"),
+    ("docs/deployment-lacnet.md", "02_lacnet_smart_contract_deployment_guide_manglar_azul_mrv.pdf", "LACNet Smart Contract Deployment Guide - Manglar Azul MRV"),
+    ("pitch/output/output.pptx", "03_pitch_deck_manglar_azul_mrv.pdf", "Pitch Deck - Manglar Azul MRV"),
+    ("README.md", "04_readme_repositorio_manglar_azul_mrv.pdf", "README del Repositorio"),
+    ("docs/architecture.md", "05_arquitectura_manglar_azul_mrv.pdf", "Arquitectura"),
+    ("docs/demo-script.md", "06_guion_video_demo_manglar_azul_mrv.pdf", "Guion de Video Demo"),
+    ("docs/rubric-checklist.md", "07_checklist_rubrica_manglar_azul_mrv.pdf", "Checklist de Rubrica"),
+    ("mrv/output/mrv_report.txt", "08_reporte_mrv_resumen_manglar_azul_mrv.pdf", "Reporte MRV Resumen"),
 ]
 
 
@@ -306,13 +306,15 @@ def render_pitch_pdf(destination: Path):
 
 def main():
     OUT.mkdir(parents=True, exist_ok=True)
+    for old_pdf in OUT.glob("*.pdf"):
+        old_pdf.unlink()
 
     generated = []
     for source_name, output_name, title in DOCS:
         source = ROOT / source_name
         destination = OUT / output_name
 
-        if output_name == "02_pitch_deck.pdf":
+        if source.suffix.lower() == ".pptx":
             render_pitch_pdf(destination)
         elif source.suffix.lower() == ".md":
             render_markdown_pdf(source, destination, title)

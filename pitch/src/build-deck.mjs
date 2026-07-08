@@ -121,7 +121,7 @@ async function build() {
     text(slide, "Manglar\nAzul MRV", { x: 60, y: 155, w: 480, h: 210, size: 78, color: C.white, bold: true, face: FONT.title, name: "cover-title" });
     line(slide, { x: 64, y: 395, w: 180, weight: 5, fill: C.gold });
     text(slide, "Tokenizacion EVM de carbono azul con evidencia MRV auditable y retiro publico.", { x: 64, y: 430, w: 430, h: 96, size: 25, color: "#E4F0EC", name: "cover-promise" });
-    text(slide, "Hiro Namisato Maetahara · John Núñez Perez", { x: 64, y: 632, w: 480, h: 24, size: 15, color: "#BED6CF", name: "cover-team" });
+    text(slide, "Hiro Namisato Maetahara · John Nuñez Perez", { x: 64, y: 632, w: 480, h: 24, size: 15, color: "#BED6CF", name: "cover-team" });
   }
 
   // Slide 2: problem
@@ -281,7 +281,7 @@ async function build() {
       }
     });
     text(slide, "Entregable listo: codigo abierto, submission, pitch, demo local y guia de despliegue.", { x: 156, y: 580, w: 970, h: 42, size: 27, color: C.white, bold: true, align: "center", name: "roadmap-close" });
-    text(slide, "Hiro Namisato Maetahara · John Núñez Perez", { x: 362, y: 644, w: 556, h: 24, size: 16, color: C.gold, bold: true, align: "center", name: "roadmap-team" });
+    text(slide, "Hiro Namisato Maetahara · John Nuñez Perez", { x: 362, y: 644, w: 556, h: 24, size: 16, color: C.gold, bold: true, align: "center", name: "roadmap-team" });
   }
 
   for (const [index, slide] of deck.slides.items.entries()) {
